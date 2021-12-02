@@ -6,13 +6,13 @@ defmodule AdventOfCode2021.Solutions.Day01 do
     |> Enum.map(&String.to_integer/1)
   end
 
-  def execute(input) do
+  def challenge_1(input) do
     input
     |> process_input()
     |> total_increases()
   end
 
-  def execute_2(input) do
+  def challenge_2(input) do
     {final, acc} =
       input
       |> process_input()

@@ -18,8 +18,8 @@ defmodule AdventOfCode2021.Solutions.Day01Test do
     input = File.read!("./lib/inputs/day01.txt")
 
 
-    result = Day01.execute(input)
-    result2 = Day01.execute_2(input)
+    result = Day01.challenge_1(input)
+    result2 = Day01.challenge_2(input)
     assert result == 1226
     assert result2 == 1252
   end
